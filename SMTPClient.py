@@ -10,7 +10,7 @@ endmsg = "\r\n.\r\n"
 recipient = "<fcamp001@fiu.edu>"
 sender = "<familytreetesting@gmail.com>"
 username = "familytreetesting@gmail.com"
-password = 'clarke123'
+password = '___'
 
 # Choose a mail server (e.g. Google mail server) and call it mailserver
 mailserver = 'smtp.gmail.com'  # Fill in start #Fill in end

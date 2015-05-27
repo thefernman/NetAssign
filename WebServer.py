@@ -20,9 +20,7 @@ while True:
         output_data = f.read()  # Fill in start #Fill in end
 
         # Send one HTTP header line into socket
-        # Fill in start
         connectionSocket.send('HTTP/1.1 200 OK\r\n\r\n')
-        # Fill in end
 
         # Send the content of the requested file to the client
         for i in range(0, len(output_data)):
@@ -30,11 +28,7 @@ while True:
         connectionSocket.close()
     except IOError:
         # Send response message for file not found
-        # Fill in start
         connectionSocket.send('\nHTTP/1.1 404 Not Found\n\n')
-        # Fill in end
 
         # Close client socket
-        # Fill in start
         serverSocket.close()
-        # Fill in end
